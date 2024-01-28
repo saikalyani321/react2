@@ -1,0 +1,40 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(229, 243, 243);
+  }
+  
+  .button-container {
+    display: flex;
+    border: 2px solid black;
+  }
+  
+  button {
+    font-size: 50px;
+    width: 75px;
+    color: #170202;
+   
+    
+    border: 3px solid #23abef;
+    border-radius: 3px; 
+    padding: 8px 16px; 
+    cursor: pointer;
+    background-color: #fff;
+    
+  }
+  
+  button:not(:first-child) {
+    border-left: 2px solid transparent;
+  }
+  button:not(:last-child) {
+    border-right: 2px solid transparent; 
+  }
+  #b1 ,#b3{
+        color: rgb(40, 191, 241);
+  }
+ 
+  
+  
